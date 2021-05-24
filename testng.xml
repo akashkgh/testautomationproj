@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FunctionalSuite">
+
+	<groups>
+		<run>
+			<include name="smoke"></include>
+			<include name="Regression"></include>
+		</run>
+	</groups>
+	
+
+	<test name="TestingPract">
+		<classes>
+			<class name="practicetestcases.TestNG1" />
+			<class name="practicetestcases.TestNG2" />
+		</classes>
+	</test>
+
+
+	<test name="TestingPract2">
+		<classes>
+			<class name="practicetestcases2.TestNG6P2" />
+		</classes>
+	</test>
+
+
+	<test name="TestingPract3">
+		<classes>
+			<class name="practicetestcases3.TestNG9P3" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
